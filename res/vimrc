@@ -1,0 +1,30 @@
+set nocompatible
+filetype indent plugin on
+syntax on
+set wildmenu
+set showcmd
+set number
+set backspace=indent,eol,start
+set autoindent
+set nostartofline
+set ruler
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
+set clipboard+=unnamedplus
+set spell spelllang=en_us
+
+highlight clear SpellBad
+highlight SpellBad cterm=underline gui=undercurl
+highlight clear SpellCap
+highlight SpellCap cterm=underline gui=undercurl
+highlight clear SpellLocal
+highlight SpellLocal cterm=underline gui=undercurl
+highlight clear SpellRare
+highlight SpellRare cterm=underline gui=undercurl
+
