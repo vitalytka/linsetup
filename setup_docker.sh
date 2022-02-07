@@ -3,7 +3,7 @@
 set -x
 set -e
 
-sudo apt remove docker docker-engine docker.io containerd runc
+sudo dpkg --remove docker docker-engine docker.io containerd runc
 
 sudo apt update
 sudo apt-get install -y apt-transport-https ca-certificates curl gnupg lsb-release
